@@ -47,12 +47,11 @@ store.get('admin');
 
 ### scope
 
-  The default scope of store-toggle is the datastore itself. However you can change the scope as following:
+  The default scope of store-toggle is the datastore itself. However you can change the scope (datastore-like) as following:
 
 ```js
 var store = new Store();
 store.use(toggle, scope);
-
 ```
 
   > useful to use this plugin with modules that abstract datastore (like **[wall](http://github.com/bredele/wall)** for example).
