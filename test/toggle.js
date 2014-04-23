@@ -23,5 +23,19 @@ describe("Extend datstore", function() {
 		store.enable('admin');
 		assert.equal(store.get('admin'), true);
 	});
+
+	it('should disable a key into a datastore object', function() {
+		store.disable('admin');
+		assert.equal(store.get('admin'), false);
+	});
+
+	it('should set scope', function() {
+		var other = new Store();
+		store.use(toggle, other);
+		store.disable('admin');
+		store.enable('user');
+		assert.equal(other.get('admin'), false);
+		assert.equal(other.get('user'), true);		
+	});
 	
 });

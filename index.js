@@ -4,14 +4,15 @@
  * @api public
  */
 
-module.exports = function toggle(ctx) {
+module.exports = function toggle(ctx, scope) {
+	scope = scope || ctx;
 
 	ctx.enable = function(key) {
-		ctx.set(key, true);
+		scope.set(key, true);
 	};
 
-	ctx.disable = function() {
-
+	ctx.disable = function(key) {
+		scope.set(key, false);
 	};
 };
 
