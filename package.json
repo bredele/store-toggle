@@ -1,0 +1,28 @@
+{
+  "name": "store-toggle",
+  "version": "0.0.0",
+  "description": "Enable or disable a key into a datastore",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bredele/store-toggle.git"
+  },
+  "keywords": [
+    "datastore",
+    "store",
+    "enable",
+    "disable"
+  ],
+  "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/store-toggle/issues"
+  },
+  "homepage": "https://github.com/bredele/store-toggle"
+}
