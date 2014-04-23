@@ -2,10 +2,9 @@
   "name": "store-toggle",
   "repository": "bredele/store-toggle",
   "description": "Enable or disable a key into a datastore.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "keywords": [],
-  "dependencies": {
-  },
+  "dependencies": {},
   "development": {
     "bredele/datastore": "*"
   },

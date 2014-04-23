@@ -1,6 +1,6 @@
 {
   "name": "store-toggle",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Enable or disable a key into a datastore",
   "main": "index.js",
   "directories": {
